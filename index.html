@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport", initial-scale=1.0">
     <title>Todo list</title>
+    <link rel="stylesheet" href="/reset.css">
+
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4f7fe5e387.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
+         <section>
+
+   <img src="/do.jpg">
+ </section>
  <div class="navigation">
     <ul>
         <li><a href="#"> Todays task</a></li>
@@ -17,19 +27,13 @@
         <li><a href="">Done Job</a></li>
       </ul>
  </div> 
- <section>
-    <h1> lets do !</h1>
- </section>
- <section>
-
-   <img src="/do.jpg">
- </section>
+ 
 
  
     </header> 
     
- <section>
-    <h3> Today </h3>
+ <section class="today">
+   <h3><u><b>Today:</b></u>  </h3>
  </section>
     
     <section id="Table">
@@ -79,12 +83,12 @@
         </table>
     </section>
     <section id="new">
-        <p> Add New Task : </p>
+        <p><u> Add New Task :</u></p>
     </section>
 <section>
     <form>
-        <label for="title">task title</label>
-        <input type="text" name="From" id="From">
+        <label for="title">task title</label >
+        <input type="text" name="text" id="text">
         
         <label for="start">starting </label>
         <input type="time" name="Status" id="starting">
@@ -94,20 +98,21 @@
         <input type="text" name="Status" id="notes">
         <label for="Status">Status </label>
         <input type="text" name="Status" id="Status">
-        <input type="submit" placeholder="submit">
+        <input type="submit" class="sub" placeholder="submit">
        
 </section>
 <footer>
     
-    <section >
+    <section class="p1" >
         <p>  All Rights Reserved</p>
     </section>
-    <section id="contact us">
+    <div class="con">
+    <section >
         <p>Contact Us</p>
         <i class="	fas fa-phone-alt"></i>
         <i class="fab fa-facebook"></i>
         <i class="fab fa-whatsapp"></i>
-    </section>
+    </section></div>
 </footer>
 </body>
 </html>

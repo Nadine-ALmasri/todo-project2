@@ -122,8 +122,8 @@ flex-direction: column;
     }
     .name {
         font-size: 100px;
-        text-align: center;
-     padding-right: 250px; 
+       padding-right: 500px;
+    
     }
   
     textarea{

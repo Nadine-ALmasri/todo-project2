@@ -1,0 +1,133 @@
+*{
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(202, 235, 215)
+}
+header {
+   
+    background-color: rgb(247, 250, 248);
+   background-color: white;
+ width: 100%;
+ padding: 0px;
+ margin: 0;
+
+ 
+}
+
+
+.navigation ul li{
+    float: right;
+    display: inline;
+    margin: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+ padding-top: 50px;
+ 
+ 
+}
+.navigation{
+    padding-top: 0px;
+}
+.navigation a {
+    color: #0f0d07;
+    text-decoration: none;
+    background-color: rgb(202, 235, 215);
+    border-radius: 10px;
+    text-transform: uppercase;
+   
+ 
+}
+.navigation ul li a {
+    padding: 6px 15px;}
+    header img {
+        width:180px;
+        height:150px;
+        float: left;
+    padding-bottom: 0px;}
+   .about p{
+        font-family: 'Righteous', cursive;
+        font-size: 25px;
+       
+        text-align: right;
+        direction:ltr;
+        display: block;
+        
+    }
+ .about img {
+    width: 250px;
+    height:250px;
+    float: left;
+    padding: 0px;
+ }
+ .about img p{
+    display: inline;
+    flex-direction: row;
+ }
+ form {
+    display: block;
+    padding-left:  250px;
+    padding-top: 0px;
+}
+    input{
+        background-color: #d7f4f1;
+        margin:  10px;
+       
+       }
+       footer {
+       
+       width: 100%;
+        background-color: rgb(243, 242, 243);
+        font-family: 'Righteous', cursive;
+flex-direction: column;
+      
+       
+       
+        }
+        .p1 {
+            text-align: center;
+           
+        }
+        label , input,textarea {
+            font-size: 20px;
+            display: block;
+            text-transform: capitalize;
+        }    
+      .form {
+        font-size: 30px;
+        font-weight: 20px;
+        font-family: 'Righteous', cursive;
+       padding-left: 250px;
+       padding-top: 15px;
+      }
+      .sub {
+        background-color: #d7f4f1;
+      }
+    footer p {
+        display: inline;
+    
+       
+    }
+    .foot {
+       text-align: center;
+    }
+    .contact{
+        float: right;
+        display: inline;
+       
+    }
+    .name {
+        font-size: 100px;
+        text-align: center;
+     padding-right: 250px; 
+    }
+  
+    textarea{
+     
+            background-color: #d7f4f1;
+            margin:  10px;
+    }
